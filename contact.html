@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css"/>
+    <script src="https://kit.fontawesome.com/b72b65040b.js" crossorigin="anonymous"></script>
+    <script defer src="./assets/script.js"></script>
+    <title>Coal Harbour Bike Rental | Contact</title>
+</head>
+<body>
+    <header class="site-header">
+        <section class="hero-banner">
+            <div class="hero-content">
+                <h1>Coal Harbour Bike Rental</h1>
+                <p>
+                    Local, family-friendly bike rentals since 2019 – just steps from the
+                    seawall and Stanley Park.
+                </p>
+            </div>
+        </section>
+
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a class="active"  href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="contact-us-form">
+            <h2>Contact Us</h2>
+            <div id="contact-form">
+                <form onsubmit="submitForm(event)">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" required>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required>
+                    <label for="message">Message</label>
+                    <textarea id="message" rows="4" required></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </section>
+        <section class="contact-details">
+            <h2><i class="fa-solid fa-house"></i> Address</h2>
+            <p>1570 Coal Harbour Quay, Vancouver, BC V6G 3G1, Canada, Vancouver, BC, Canada, V6G 3G1</p>
+
+            <h2><i class="fa-solid fa-phone"></i> Phone Number</h2>
+            <p>(604) 722-5566</p>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <p>&copy; <span id="year"></span> Coal Harbour Bike Rental.</p>
+        <p class="citation">Add APA citations for any external price or service info used.</p>
+    </footer>
+</body>
+</html>
